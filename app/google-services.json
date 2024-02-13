@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "268566876511",
+    "project_id": "violation-eye",
+    "storage_bucket": "violation-eye.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:268566876511:android:196fa4eb30f65d23dbe6ea",
+        "android_client_info": {
+          "package_name": "com.example.voilationeye"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA19IteGYJMgm3xOKiu-Y0hmEa0nn0_-RQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
