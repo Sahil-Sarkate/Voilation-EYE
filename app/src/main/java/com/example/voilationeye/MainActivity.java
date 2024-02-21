@@ -22,7 +22,7 @@ import java.util.Objects;
 
 public class MainActivity extends AppCompatActivity {
     private ImageView iv_mic;
-    Button uploadB;
+    Button uploadB, registerBtn;
     static boolean flag = false;
     static String timestamp;
     private TextView tv_Speech_to_text;
@@ -35,11 +35,20 @@ public class MainActivity extends AppCompatActivity {
         uploadB = findViewById(R.id.uploadB);
         iv_mic = findViewById(R.id.iv_mic);
         tv_Speech_to_text = findViewById(R.id.tv_speech_to_text);
+        registerBtn = findViewById(R.id.register);
 
         uploadB.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(getApplicationContext(),dataTimeList.class));
+                finish();
+            }
+        });
+
+        registerBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(),Register_Page.class));
                 finish();
             }
         });
