@@ -28,7 +28,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".lo"
+            android:name=".MainActivity"
             android:exported="false" />
     </application>
 
